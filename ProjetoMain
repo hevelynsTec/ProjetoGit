@@ -5,5 +5,17 @@ git status
 git commit -m "mensagem"
 git push origin main
 
-#Branch
+#Branch(Criar nova Branch)
 git checkout -b "novo item"
+git add .
+git commit -m "novo-item"
+git push origin novo-item
+
+retornar a branch main
+git checkout main
+
+
+Marge(Juntar com a principal)
+git checkout main
+git merge novo-item
+git push origin main
